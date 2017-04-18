@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleExtensions">
+    <project path="$PROJECT_DIR$">
+      <sub-project>
+        <project path="$PROJECT_DIR$">
+          <extensions>
+            <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
+            <task name="generateProdDebugAndroidTestResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePreDebugUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompilePreDebugAndroidTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'ApiStartup'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdReleaseUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdReleaseJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdDebugAndroidTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compilePreDebugRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jarProdDebugClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreDebugUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mockableAndroidJar" type="com.android.build.gradle.internal.tasks.MockableAndroidJarTask">Creates a version of android.jar that's suitable for unit tests.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="processPreReleaseResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePreDebug">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="packageProdDebugAndroidTest" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="deviceCheck">Runs all device checks using Device Providers and Test Servers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the android (on device) tests for the PreDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="lint" type="com.android.build.gradle.tasks.Lint">Runs lint on all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="javaPreCompilePreDebug" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packagePreDebugAndroidTest" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdReleaseUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanBuildCache" type="com.android.build.gradle.tasks.CleanBuildCache">Deletes the build cache directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="generateProdReleaseSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdDebugAndroidTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by root project 'ApiStartup'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="generatePreReleaseResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProd">Assembles all Prod builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompilePreDebugUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreDebugUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallProdRelease" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the ReleaseProd build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdReleaseAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdDebugUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdDebugJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="deviceAndroidTest" type="com.android.build.gradle.internal.tasks.AndroidReportTask">Installs and runs instrumentation tests using all Device Providers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="checkPreDebugManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemble">Assembles all variants of all applications and secondary packages.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="connectedCheck">Runs all device checks on currently connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdReleaseUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleAndroidTest">Assembles all the Test applications.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="lintPreRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on the PreRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="packagePreDebug" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreReleaseDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileLint" type="com.android.build.gradle.internal.tasks.LintCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugAndroidTestManifest" type="com.android.build.gradle.tasks.ProcessTestManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="extractProguardFiles" type="com.android.build.gradle.internal.tasks.ExtractProguardFiles">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdDebugDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdReleaseUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugAndroidTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="test">Run unit tests for all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdDebugAndroidTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileProdReleaseShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintVitalPreRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on just the fatal issues in the preRelease build.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testProdDebugUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the prodDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="assemblePreDebugAndroidTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdReleaseUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testPreDebugUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the preDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdReleaseUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdReleaseResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaProject" type="org.gradle.plugins.ide.idea.GenerateIdeaProject">Generates IDEA project file (IPR)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdDebugUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePreRelease">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreReleaseJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexWithDexForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugAndroidTestManifest" type="com.android.build.gradle.tasks.ProcessTestManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the android (on device) tests for the ProdDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="mergePreDebugResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="dependentComponents" type="org.gradle.api.reporting.dependents.DependentComponentsReport">Displays the dependent components of components in root project 'ApiStartup'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="lintProdDebug" type="com.android.build.gradle.tasks.Lint">Runs lint on the ProdDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in root project 'ApiStartup'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="lintVitalProdRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on just the fatal issues in the prodRelease build.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="sourceSets" type="com.android.build.gradle.internal.tasks.SourceSetsTask">Prints out all the source sets defined in this project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="javaPreCompilePreRelease" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithPreDexForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdRelease">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreReleaseManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallPreRelease" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the ReleasePre build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="uninstallProdDebug" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the DebugProd build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="assemblePreReleaseUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintPreDebug" type="com.android.build.gradle.tasks.Lint">Runs lint on the PreDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileProdDebugRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePre">Assembles all Pre builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="checkProdDebugManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdDebugUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompilePreReleaseUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="validateSigningProdDebug" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleRelease">Assembles all Release builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdRelease" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreReleaseUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreDebugAndroidTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreDebugUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installProdDebug" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the DebugProd build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of root project 'ApiStartup'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from root project 'ApiStartup' (some of the displayed tasks may belong to subprojects).&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreReleaseDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask">Installs and runs the tests for prodDebug on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="init" type="org.gradle.buildinit.tasks.InitBuild">Initializes a new Gradle build. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="prePreDebugBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithPreDexForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdReleaseResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in root project 'ApiStartup'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="packagePreRelease" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="javaPreCompileProdDebug" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="checkProdReleaseManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleDebug">Assembles all Debug builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="testProdReleaseUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the prodRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformDexWithDexForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="handlePreDebugMicroApk" type="com.android.build.gradle.internal.tasks.GenerateApkDataTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jarPreReleaseClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreDebugAndroidTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageProdDebug" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdReleaseDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdReleaseDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugAndroidTestResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdReleaseBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreDebugDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask">Installs and runs the tests for preDebug on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileProdDebugUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdReleaseResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in root project 'ApiStartup'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdDebugBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compilePreDebugShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="installPreDebug" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the DebugPre build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="generatePreDebugResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallAll">Uninstall all applications.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="checkPreReleaseManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="wrapper" type="org.gradle.api.tasks.wrapper.Wrapper">Generates Gradle wrapper files. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="androidDependencies" type="com.android.build.gradle.internal.tasks.DependencyReportTask">Displays the Android dependencies of the project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="generateProdReleaseBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreReleaseJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdDebugAndroidTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningPreDebug" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugAndroidTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageProdRelease" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdDebugUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedAndroidTest" type="com.android.build.gradle.internal.tasks.AndroidReportTask">Installs and runs instrumentation tests for all flavors on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="installProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the android (on device) tests for the ProdDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testPreReleaseUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the preRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="jarPreDebugClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="assembleProdDebug">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreReleaseUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallPreDebug" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the DebugPre build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="handleProdDebugMicroApk" type="com.android.build.gradle.internal.tasks.GenerateApkDataTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the android (on device) tests for the PreDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileProdReleaseUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreReleaseUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreReleaseBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaWorkspace" type="org.gradle.plugins.ide.idea.GenerateIdeaWorkspace">Generates an IDEA workspace file (IWS)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="signingReport" type="com.android.build.gradle.internal.tasks.SigningReportTask">Displays the signing info for each variant.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="prepareProdReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="clean" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="jarProdReleaseClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdReleaseManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="mergeProdDebugAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintProdRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on the ProdRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="processPreReleaseUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugAndroidTestResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of root project 'ApiStartup'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="incrementalPreDebugJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaWorkspace" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdReleaseJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdDebugUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <conf name="classpath" scriptClasspath="true" />
+          </extensions>
+        </project>
+        <project path="$PROJECT_DIR$/app">
+          <extensions parent="$PROJECT_DIR$">
+            <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
+            <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
+            <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="android" type="com.android.build.gradle.AppExtension" />
+            <task name="generateProdDebugAndroidTestResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePreDebugUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompilePreDebugAndroidTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdReleaseUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdReleaseJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdDebugAndroidTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compilePreDebugRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jarProdDebugClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreDebugUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mockableAndroidJar" type="com.android.build.gradle.internal.tasks.MockableAndroidJarTask">Creates a version of android.jar that's suitable for unit tests.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="processPreReleaseResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePreDebug">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="packageProdDebugAndroidTest" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="deviceCheck">Runs all device checks using Device Providers and Test Servers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the android (on device) tests for the PreDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="lint" type="com.android.build.gradle.tasks.Lint">Runs lint on all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="javaPreCompilePreDebug" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packagePreDebugAndroidTest" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdReleaseUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanBuildCache" type="com.android.build.gradle.tasks.CleanBuildCache">Deletes the build cache directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="generateProdReleaseSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdDebugAndroidTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by project ':app'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="generatePreReleaseResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProd">Assembles all Prod builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompilePreDebugUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreDebugUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallProdRelease" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the ReleaseProd build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdReleaseAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdDebugUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdDebugJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="deviceAndroidTest" type="com.android.build.gradle.internal.tasks.AndroidReportTask">Installs and runs instrumentation tests using all Device Providers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="checkPreDebugManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemble">Assembles all variants of all applications and secondary packages.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="connectedCheck">Runs all device checks on currently connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdReleaseUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleAndroidTest">Assembles all the Test applications.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="lintPreRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on the PreRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="packagePreDebug" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreReleaseDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileLint" type="com.android.build.gradle.internal.tasks.LintCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugAndroidTestManifest" type="com.android.build.gradle.tasks.ProcessTestManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="extractProguardFiles" type="com.android.build.gradle.internal.tasks.ExtractProguardFiles">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdDebugDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdReleaseUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugAndroidTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="test">Run unit tests for all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdDebugAndroidTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileProdReleaseShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintVitalPreRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on just the fatal issues in the preRelease build.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testProdDebugUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the prodDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="assemblePreDebugAndroidTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalProdReleaseUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testPreDebugUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the preDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdReleaseUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdReleaseResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdDebugUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePreRelease">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreReleaseJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexWithDexForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugAndroidTestManifest" type="com.android.build.gradle.tasks.ProcessTestManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the android (on device) tests for the ProdDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="mergePreDebugResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="dependentComponents" type="org.gradle.api.reporting.dependents.DependentComponentsReport">Displays the dependent components of components in project ':app'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="lintProdDebug" type="com.android.build.gradle.tasks.Lint">Runs lint on the ProdDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="lintVitalProdRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on just the fatal issues in the prodRelease build.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="sourceSets" type="com.android.build.gradle.internal.tasks.SourceSetsTask">Prints out all the source sets defined in this project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="javaPreCompilePreRelease" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithPreDexForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdRelease">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreReleaseManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallPreRelease" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the ReleasePre build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="uninstallProdDebug" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the DebugProd build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="assemblePreReleaseUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintPreDebug" type="com.android.build.gradle.tasks.Lint">Runs lint on the PreDebug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileProdDebugRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemblePre">Assembles all Pre builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="checkProdDebugManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdDebugUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompilePreReleaseUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="validateSigningProdDebug" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleRelease">Assembles all Release builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileProdRelease" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreReleaseUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreDebugAndroidTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreDebugUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installProdDebug" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the DebugProd build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugAndroidTestAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of project ':app'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="preparePreReleaseDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask">Installs and runs the tests for prodDebug on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="prePreDebugBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithPreDexForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdReleaseResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="packagePreRelease" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="javaPreCompileProdDebug" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugAndroidTestAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="checkProdReleaseManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleDebug">Assembles all Debug builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="testProdReleaseUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the prodRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformDexWithDexForProdRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="handlePreDebugMicroApk" type="com.android.build.gradle.internal.tasks.GenerateApkDataTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jarPreReleaseClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolvePreDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreDebugAndroidTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageProdDebug" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareProdReleaseDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdReleaseDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugAndroidTestResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdReleaseBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreDebugDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForPreDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask">Installs and runs the tests for preDebug on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileProdDebugUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdReleaseResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileProdDebugAndroidTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdDebugBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compilePreDebugShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="installPreDebug" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the DebugPre build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="generatePreDebugResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateProdDebugAndroidTestAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallAll">Uninstall all applications.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForProdDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="checkPreReleaseManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdDebugJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="androidDependencies" type="com.android.build.gradle.internal.tasks.DependencyReportTask">Displays the Android dependencies of the project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="generateProdReleaseBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreReleaseJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreReleaseJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preProdDebugAndroidTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningPreDebug" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdDebugAndroidTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageProdRelease" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preparePreDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleProdDebugUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedAndroidTest" type="com.android.build.gradle.internal.tasks.AndroidReportTask">Installs and runs instrumentation tests for all flavors on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="installProdDebugAndroidTest" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the android (on device) tests for the ProdDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="generatePreDebugAndroidTestAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testPreReleaseUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the preRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="jarPreDebugClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="assembleProdDebug">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreReleaseSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreReleaseUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdDebugResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallPreDebug" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the DebugPre build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="handleProdDebugMicroApk" type="com.android.build.gradle.internal.tasks.GenerateApkDataTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergePreDebugJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installPreDebugAndroidTest" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the android (on device) tests for the PreDebug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForPreDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForPreRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileProdReleaseUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreReleaseUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prePreReleaseBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreReleaseUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="mergePreDebugAndroidTestJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForProdDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeProdReleaseResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileProdReleaseRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="signingReport" type="com.android.build.gradle.internal.tasks.SigningReportTask">Displays the signing info for each variant.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="prepareProdReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generatePreDebugSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="generateProdDebugSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compilePreDebugUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="jarProdReleaseClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processProdReleaseManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveProdDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="mergeProdDebugAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintProdRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on the ProdRelease build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="processPreReleaseUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processPreDebugAndroidTestResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalPreDebugJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="processProdReleaseJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForProdDebugUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <conf name="_preDebugAndroidTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugAndroidTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugAndroidTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugAndroidTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugUnitTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugUnitTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugUnitTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preDebugUnitTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseUnitTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseUnitTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseUnitTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_preReleaseUnitTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugAndroidTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugAndroidTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugAndroidTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugAndroidTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugUnitTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugUnitTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugUnitTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodDebugUnitTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseUnitTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseUnitTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseUnitTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_prodReleaseUnitTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="androidJacocoAgent" visible="false">The Jacoco agent to use to get coverage data.</conf>
+            <conf name="androidJacocoAnt" visible="false">The Jacoco ant tasks to use to get execute Gradle tasks.</conf>
+            <conf name="androidTestAnnotationProcessor" visible="false">Classpath for the annotation processor for 'androidTest'.</conf>
+            <conf name="androidTestApk" visible="false">Classpath packaged with the compiled 'androidTest' classes.</conf>
+            <conf name="androidTestCompile" visible="false">Classpath for compiling the androidTest sources.</conf>
+            <conf name="androidTestJackPlugin" visible="false">Classpath for the 'androidTest' Jack plugins.</conf>
+            <conf name="androidTestPreAnnotationProcessor" visible="false">Classpath for the annotation processor for 'androidTestPre'.</conf>
+            <conf name="androidTestPreApk" visible="false">Classpath packaged with the compiled 'androidTestPre' classes.</conf>
+            <conf name="androidTestPreCompile" visible="false">Classpath for compiling the androidTestPre sources.</conf>
+            <conf name="androidTestPreJackPlugin" visible="false">Classpath for the 'androidTestPre' Jack plugins.</conf>
+            <conf name="androidTestPreProvided" visible="false">Classpath for only compiling the androidTestPre sources.</conf>
+            <conf name="androidTestPreWearApp" visible="false">Link to a wear app to embed for object 'androidTestPre'.</conf>
+            <conf name="androidTestProdAnnotationProcessor" visible="false">Classpath for the annotation processor for 'androidTestProd'.</conf>
+            <conf name="androidTestProdApk" visible="false">Classpath packaged with the compiled 'androidTestProd' classes.</conf>
+            <conf name="androidTestProdCompile" visible="false">Classpath for compiling the androidTestProd sources.</conf>
+            <conf name="androidTestProdJackPlugin" visible="false">Classpath for the 'androidTestProd' Jack plugins.</conf>
+            <conf name="androidTestProdProvided" visible="false">Classpath for only compiling the androidTestProd sources.</conf>
+            <conf name="androidTestProdWearApp" visible="false">Link to a wear app to embed for object 'androidTestProd'.</conf>
+            <conf name="androidTestProvided" visible="false">Classpath for only compiling the androidTest sources.</conf>
+            <conf name="androidTestWearApp" visible="false">Link to a wear app to embed for object 'androidTest'.</conf>
+            <conf name="annotationProcessor" visible="false">Classpath for the annotation processor for 'main'.</conf>
+            <conf name="apk" visible="false">Classpath packaged with the compiled 'main' classes.</conf>
+            <conf name="archives">Configuration for archive artifacts.</conf>
+            <conf name="compile" visible="false">Classpath for compiling the main sources.</conf>
+            <conf name="debugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'debug'.</conf>
+            <conf name="debugApk" visible="false">Classpath packaged with the compiled 'debug' classes.</conf>
+            <conf name="debugCompile" visible="false">Classpath for compiling the debug sources.</conf>
+            <conf name="debugJackPlugin" visible="false">Classpath for the 'debug' Jack plugins.</conf>
+            <conf name="debugProvided" visible="false">Classpath for only compiling the debug sources.</conf>
+            <conf name="debugWearApp" visible="false">Link to a wear app to embed for object 'debug'.</conf>
+            <conf name="default">Configuration for default artifacts.</conf>
+            <conf name="default-mapping">Configuration for default mapping artifacts.</conf>
+            <conf name="default-metadata">Metadata for the produced APKs.</conf>
+            <conf name="jackPlugin" visible="false">Classpath for the 'main' Jack plugins.</conf>
+            <conf name="preAnnotationProcessor" visible="false">Classpath for the annotation processor for 'pre'.</conf>
+            <conf name="preApk" visible="false">Classpath packaged with the compiled 'pre' classes.</conf>
+            <conf name="preCompile" visible="false">Classpath for compiling the pre sources.</conf>
+            <conf name="preDebugAndroidTestWearBundling">Resolved Configuration for wear app bundling for variant: preDebugAndroidTest</conf>
+            <conf name="preDebugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'preDebug'.</conf>
+            <conf name="preDebugApk" visible="false">Classpath packaged with the compiled 'preDebug' classes.</conf>
+            <conf name="preDebugCompile" visible="false">Classpath for compiling the preDebug sources.</conf>
+            <conf name="preDebugJackPlugin" visible="false">Classpath for the 'preDebug' Jack plugins.</conf>
+            <conf name="preDebugProvided" visible="false">Classpath for only compiling the preDebug sources.</conf>
+            <conf name="preDebugUnitTestWearBundling">Resolved Configuration for wear app bundling for variant: preDebugUnitTest</conf>
+            <conf name="preDebugWearApp" visible="false">Link to a wear app to embed for object 'preDebug'.</conf>
+            <conf name="preDebugWearBundling">Resolved Configuration for wear app bundling for variant: preDebug</conf>
+            <conf name="preJackPlugin" visible="false">Classpath for the 'pre' Jack plugins.</conf>
+            <conf name="preProvided" visible="false">Classpath for only compiling the pre sources.</conf>
+            <conf name="preReleaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'preRelease'.</conf>
+            <conf name="preReleaseApk" visible="false">Classpath packaged with the compiled 'preRelease' classes.</conf>
+            <conf name="preReleaseCompile" visible="false">Classpath for compiling the preRelease sources.</conf>
+            <conf name="preReleaseJackPlugin" visible="false">Classpath for the 'preRelease' Jack plugins.</conf>
+            <conf name="preReleaseProvided" visible="false">Classpath for only compiling the preRelease sources.</conf>
+            <conf name="preReleaseUnitTestWearBundling">Resolved Configuration for wear app bundling for variant: preReleaseUnitTest</conf>
+            <conf name="preReleaseWearApp" visible="false">Link to a wear app to embed for object 'preRelease'.</conf>
+            <conf name="preReleaseWearBundling">Resolved Configuration for wear app bundling for variant: preRelease</conf>
+            <conf name="preWearApp" visible="false">Link to a wear app to embed for object 'pre'.</conf>
+            <conf name="prodAnnotationProcessor" visible="false">Classpath for the annotation processor for 'prod'.</conf>
+            <conf name="prodApk" visible="false">Classpath packaged with the compiled 'prod' classes.</conf>
+            <conf name="prodCompile" visible="false">Classpath for compiling the prod sources.</conf>
+            <conf name="prodDebugAndroidTestWearBundling">Resolved Configuration for wear app bundling for variant: prodDebugAndroidTest</conf>
+            <conf name="prodDebugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'prodDebug'.</conf>
+            <conf name="prodDebugApk" visible="false">Classpath packaged with the compiled 'prodDebug' classes.</conf>
+            <conf name="prodDebugCompile" visible="false">Classpath for compiling the prodDebug sources.</conf>
+            <conf name="prodDebugJackPlugin" visible="false">Classpath for the 'prodDebug' Jack plugins.</conf>
+            <conf name="prodDebugProvided" visible="false">Classpath for only compiling the prodDebug sources.</conf>
+            <conf name="prodDebugUnitTestWearBundling">Resolved Configuration for wear app bundling for variant: prodDebugUnitTest</conf>
+            <conf name="prodDebugWearApp" visible="false">Link to a wear app to embed for object 'prodDebug'.</conf>
+            <conf name="prodDebugWearBundling">Resolved Configuration for wear app bundling for variant: prodDebug</conf>
+            <conf name="prodJackPlugin" visible="false">Classpath for the 'prod' Jack plugins.</conf>
+            <conf name="prodProvided" visible="false">Classpath for only compiling the prod sources.</conf>
+            <conf name="prodReleaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'prodRelease'.</conf>
+            <conf name="prodReleaseApk" visible="false">Classpath packaged with the compiled 'prodRelease' classes.</conf>
+            <conf name="prodReleaseCompile" visible="false">Classpath for compiling the prodRelease sources.</conf>
+            <conf name="prodReleaseJackPlugin" visible="false">Classpath for the 'prodRelease' Jack plugins.</conf>
+            <conf name="prodReleaseProvided" visible="false">Classpath for only compiling the prodRelease sources.</conf>
+            <conf name="prodReleaseUnitTestWearBundling">Resolved Configuration for wear app bundling for variant: prodReleaseUnitTest</conf>
+            <conf name="prodReleaseWearApp" visible="false">Link to a wear app to embed for object 'prodRelease'.</conf>
+            <conf name="prodReleaseWearBundling">Resolved Configuration for wear app bundling for variant: prodRelease</conf>
+            <conf name="prodWearApp" visible="false">Link to a wear app to embed for object 'prod'.</conf>
+            <conf name="provided" visible="false">Classpath for only compiling the main sources.</conf>
+            <conf name="releaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'release'.</conf>
+            <conf name="releaseApk" visible="false">Classpath packaged with the compiled 'release' classes.</conf>
+            <conf name="releaseCompile" visible="false">Classpath for compiling the release sources.</conf>
+            <conf name="releaseJackPlugin" visible="false">Classpath for the 'release' Jack plugins.</conf>
+            <conf name="releaseProvided" visible="false">Classpath for only compiling the release sources.</conf>
+            <conf name="releaseWearApp" visible="false">Link to a wear app to embed for object 'release'.</conf>
+            <conf name="testAnnotationProcessor" visible="false">Classpath for the annotation processor for 'test'.</conf>
+            <conf name="testApk" visible="false">Classpath packaged with the compiled 'test' classes.</conf>
+            <conf name="testCompile" visible="false">Classpath for compiling the test sources.</conf>
+            <conf name="testDebugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testDebug'.</conf>
+            <conf name="testDebugApk" visible="false">Classpath packaged with the compiled 'testDebug' classes.</conf>
+            <conf name="testDebugCompile" visible="false">Classpath for compiling the testDebug sources.</conf>
+            <conf name="testDebugJackPlugin" visible="false">Classpath for the 'testDebug' Jack plugins.</conf>
+            <conf name="testDebugProvided" visible="false">Classpath for only compiling the testDebug sources.</conf>
+            <conf name="testDebugWearApp" visible="false">Link to a wear app to embed for object 'testDebug'.</conf>
+            <conf name="testJackPlugin" visible="false">Classpath for the 'test' Jack plugins.</conf>
+            <conf name="testPreAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testPre'.</conf>
+            <conf name="testPreApk" visible="false">Classpath packaged with the compiled 'testPre' classes.</conf>
+            <conf name="testPreCompile" visible="false">Classpath for compiling the testPre sources.</conf>
+            <conf name="testPreDebugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testPreDebug'.</conf>
+            <conf name="testPreDebugApk" visible="false">Classpath packaged with the compiled 'testPreDebug' classes.</conf>
+            <conf name="testPreDebugCompile" visible="false">Classpath for compiling the testPreDebug sources.</conf>
+            <conf name="testPreDebugJackPlugin" visible="false">Classpath for the 'testPreDebug' Jack plugins.</conf>
+            <conf name="testPreDebugProvided" visible="false">Classpath for only compiling the testPreDebug sources.</conf>
+            <conf name="testPreDebugWearApp" visible="false">Link to a wear app to embed for object 'testPreDebug'.</conf>
+            <conf name="testPreJackPlugin" visible="false">Classpath for the 'testPre' Jack plugins.</conf>
+            <conf name="testPreProvided" visible="false">Classpath for only compiling the testPre sources.</conf>
+            <conf name="testPreReleaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testPreRelease'.</conf>
+            <conf name="testPreReleaseApk" visible="false">Classpath packaged with the compiled 'testPreRelease' classes.</conf>
+            <conf name="testPreReleaseCompile" visible="false">Classpath for compiling the testPreRelease sources.</conf>
+            <conf name="testPreReleaseJackPlugin" visible="false">Classpath for the 'testPreRelease' Jack plugins.</conf>
+            <conf name="testPreReleaseProvided" visible="false">Classpath for only compiling the testPreRelease sources.</conf>
+            <conf name="testPreReleaseWearApp" visible="false">Link to a wear app to embed for object 'testPreRelease'.</conf>
+            <conf name="testPreWearApp" visible="false">Link to a wear app to embed for object 'testPre'.</conf>
+            <conf name="testProdAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testProd'.</conf>
+            <conf name="testProdApk" visible="false">Classpath packaged with the compiled 'testProd' classes.</conf>
+            <conf name="testProdCompile" visible="false">Classpath for compiling the testProd sources.</conf>
+            <conf name="testProdDebugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testProdDebug'.</conf>
+            <conf name="testProdDebugApk" visible="false">Classpath packaged with the compiled 'testProdDebug' classes.</conf>
+            <conf name="testProdDebugCompile" visible="false">Classpath for compiling the testProdDebug sources.</conf>
+            <conf name="testProdDebugJackPlugin" visible="false">Classpath for the 'testProdDebug' Jack plugins.</conf>
+            <conf name="testProdDebugProvided" visible="false">Classpath for only compiling the testProdDebug sources.</conf>
+            <conf name="testProdDebugWearApp" visible="false">Link to a wear app to embed for object 'testProdDebug'.</conf>
+            <conf name="testProdJackPlugin" visible="false">Classpath for the 'testProd' Jack plugins.</conf>
+            <conf name="testProdProvided" visible="false">Classpath for only compiling the testProd sources.</conf>
+            <conf name="testProdReleaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testProdRelease'.</conf>
+            <conf name="testProdReleaseApk" visible="false">Classpath packaged with the compiled 'testProdRelease' classes.</conf>
+            <conf name="testProdReleaseCompile" visible="false">Classpath for compiling the testProdRelease sources.</conf>
+            <conf name="testProdReleaseJackPlugin" visible="false">Classpath for the 'testProdRelease' Jack plugins.</conf>
+            <conf name="testProdReleaseProvided" visible="false">Classpath for only compiling the testProdRelease sources.</conf>
+            <conf name="testProdReleaseWearApp" visible="false">Link to a wear app to embed for object 'testProdRelease'.</conf>
+            <conf name="testProdWearApp" visible="false">Link to a wear app to embed for object 'testProd'.</conf>
+            <conf name="testProvided" visible="false">Classpath for only compiling the test sources.</conf>
+            <conf name="testReleaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testRelease'.</conf>
+            <conf name="testReleaseApk" visible="false">Classpath packaged with the compiled 'testRelease' classes.</conf>
+            <conf name="testReleaseCompile" visible="false">Classpath for compiling the testRelease sources.</conf>
+            <conf name="testReleaseJackPlugin" visible="false">Classpath for the 'testRelease' Jack plugins.</conf>
+            <conf name="testReleaseProvided" visible="false">Classpath for only compiling the testRelease sources.</conf>
+            <conf name="testReleaseWearApp" visible="false">Link to a wear app to embed for object 'testRelease'.</conf>
+            <conf name="testWearApp" visible="false">Link to a wear app to embed for object 'test'.</conf>
+            <conf name="wearApp" visible="false">Link to a wear app to embed for object 'main'.</conf>
+            <conf name="classpath" scriptClasspath="true" />
+          </extensions>
+        </project>
+      </sub-project>
+    </project>
+  </component>
+</project>
