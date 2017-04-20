@@ -2,6 +2,7 @@ package yenilab.co.apistartup.model;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
@@ -9,6 +10,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 import yenilab.co.apistartup.BuildConfig;
+import yenilab.co.apistartup.application.ApiStartupApplication;
 import yenilab.co.apistartup.model.response.OAuthResponse;
 
 /**
@@ -122,9 +124,9 @@ public class OAuth implements Serializable {
 
     }
 
-    public static OAuth get(Context context) {
+    public static OAuth get() {
 
-        SharedPreferences preferencesReader = context.getSharedPreferences(OAUTH_PREFS_NAME, Context.MODE_PRIVATE);
+        SharedPreferences preferencesReader = ApiStartupApplication.getAppContext().getSharedPreferences(OAUTH_PREFS_NAME, Context.MODE_PRIVATE);
         String serializedData = preferencesReader.getString(OAUTH_PREFS_KEY, "");
 
         //If OAuth not exist return null
@@ -138,11 +140,11 @@ public class OAuth implements Serializable {
     }
 
     //To save OAuth data into Application storage
-    public static void save(OAuth oAuth, Context context) {
+    public static void save(OAuth oAuth) {
 
         String serializedData = oAuth.serialize();
 
-        SharedPreferences preferencesReader = context.getSharedPreferences(OAUTH_PREFS_NAME, Context.MODE_PRIVATE);
+        SharedPreferences preferencesReader = ApiStartupApplication.getAppContext().getSharedPreferences(OAUTH_PREFS_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = preferencesReader.edit();
         editor.putString(OAUTH_PREFS_KEY, serializedData);
         editor.commit();

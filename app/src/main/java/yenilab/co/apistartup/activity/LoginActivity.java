@@ -5,46 +5,31 @@ import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.app.LoaderManager.LoaderCallbacks;
-
-import android.content.CursorLoader;
-import android.content.Loader;
-import android.database.Cursor;
-import android.net.Uri;
-import android.os.AsyncTask;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
-import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import yenilab.co.apistartup.util.ApiErrorUtil;
 import yenilab.co.apistartup.BuildConfig;
 import yenilab.co.apistartup.R;
-import yenilab.co.apistartup.api.ApiClient;
 import yenilab.co.apistartup.api.ApiClientProvider;
+import yenilab.co.apistartup.model.APIError;
 import yenilab.co.apistartup.model.OAuth;
 import yenilab.co.apistartup.model.response.OAuthResponse;
-
-import static android.Manifest.permission.READ_CONTACTS;
 
 /**
  * A login screen that offers login via email/password.
@@ -161,7 +146,7 @@ public class LoginActivity extends AppCompatActivity implements Callback<OAuthRe
             // perform the user login attempt.
             showProgress(true);
             oAuth = new OAuth(email, password);
-            ApiClientProvider.getInstance(this)
+            ApiClientProvider.getInstance()
                     .login(oAuth)
                     .enqueue(this);
 
@@ -224,10 +209,16 @@ public class LoginActivity extends AppCompatActivity implements Callback<OAuthRe
         if (response.isSuccessful()) {
 
             //Save OAuthResponse and OAuth Variables to get later for Access Token Requests
-            OAuthResponse.save(response.body(), this);
-            OAuth.save(oAuth, this);
+            OAuthResponse.save(response.body());
+            OAuth.save(oAuth);
             MainActivity.start(LoginActivity.this);
             finish();
+        } else {
+
+            APIError error = ApiErrorUtil.parseError(response);
+            Snackbar snackbar = Snackbar.make(mLoginFormView, error.getMessage(), Snackbar.LENGTH_LONG);
+            snackbar.show();
+
         }
         showProgress(false);
     }

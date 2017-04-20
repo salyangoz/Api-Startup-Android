@@ -23,27 +23,24 @@ public class TokenAuthenticator implements Authenticator {
 
     private OAuthResponse oAuthResponse;
     private OAuth oAuth;
-    private Context context;
 
-    TokenAuthenticator(Context context) {
-
-        this.context = context;
+    TokenAuthenticator() {
     }
 
     @Override
     public Request authenticate(Route route, Response response) throws IOException {
 
-        oAuthResponse = OAuthResponse.get(context);
-        oAuth = OAuth.get(context);
+        oAuthResponse = OAuthResponse.get();
+        oAuth = OAuth.get();
 
         //Call refresh token service
-        retrofit2.Response<OAuthResponse> oResponse = ApiClientProvider.getInstance(context)
+        retrofit2.Response<OAuthResponse> oResponse = ApiClientProvider.getInstance()
                 .refreshToken(oAuth, oAuthResponse.getRefreshToken())
                 .execute();
 
         //Get OAuthResponse and Save To Application Storage
         oAuthResponse = oResponse.body();
-        OAuthResponse.save(oAuthResponse, context);
+        OAuthResponse.save(oAuthResponse);
 
         return response
                 .request()

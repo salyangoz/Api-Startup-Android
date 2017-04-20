@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.KeyEvent;
@@ -23,17 +24,18 @@ import com.squareup.okhttp.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import yenilab.co.apistartup.util.ApiErrorUtil;
 import yenilab.co.apistartup.BuildConfig;
 import yenilab.co.apistartup.R;
 import yenilab.co.apistartup.api.ApiClientProvider;
+import yenilab.co.apistartup.model.APIError;
 import yenilab.co.apistartup.model.OAuth;
 import yenilab.co.apistartup.model.User;
-import yenilab.co.apistartup.model.response.OAuthResponse;
 
 /**
  * A login screen that offers login via email/password.
  */
-public class RegisterActivity extends AppCompatActivity implements Callback<ResponseBody> {
+public class RegisterActivity extends AppCompatActivity implements Callback<Void> {
 
     // UI references.
     private AutoCompleteTextView mEmailView;
@@ -159,7 +161,7 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Resp
 
 
             // perform the user register attempt.
-            ApiClientProvider.getInstance(this)
+            ApiClientProvider.getInstance()
                     .register(user)
                     .enqueue(this);
 
@@ -217,13 +219,20 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Resp
     }
 
     @Override
-    public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+    public void onResponse(Call<Void> call, Response<Void> response) {
 
+        if (!response.isSuccessful()) {
+            APIError error = ApiErrorUtil.parseError(response);
+            Snackbar snackbar = Snackbar.make(mRegisterFormView, error.getMessage(), Snackbar.LENGTH_LONG);
+            snackbar.show();
+        }else{
+            finish();
+        }
         showProgress(false);
     }
 
     @Override
-    public void onFailure(Call<ResponseBody> call, Throwable throwable) {
+    public void onFailure(Call<Void> call, Throwable throwable) {
 
         //TODO customize your fail response
         showProgress(false);

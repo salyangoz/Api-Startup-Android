@@ -4,6 +4,7 @@ import android.content.Context;
 import android.text.TextUtils;
 
 import java.io.IOException;
+import java.lang.annotation.Annotation;
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.Interceptor;
@@ -15,6 +16,8 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import yenilab.co.apistartup.BuildConfig;
+import yenilab.co.apistartup.application.ApiStartupApplication;
+import yenilab.co.apistartup.model.APIError;
 import yenilab.co.apistartup.model.OAuth;
 import yenilab.co.apistartup.model.response.OAuthResponse;
 
@@ -29,8 +32,15 @@ public class ApiClientProvider {
     private static Retrofit.Builder builder = new Retrofit.Builder()
             .baseUrl(BuildConfig.API_URL)
             .addConverterFactory(GsonConverterFactory.create());
+    private static Retrofit retrofit;
+    private static AuthenticationInterceptor authInterceptor;
 
-    public static ApiClient getInstance(final Context context) {
+    public static Retrofit getRetrofitInstance() {
+
+        return retrofit;
+    }
+
+    public static ApiClient getInstance() {
 
         if (apiClient == null) {
 
@@ -42,21 +52,22 @@ public class ApiClientProvider {
 
         }
 
-        OAuthResponse oAuthResponse = OAuthResponse.get(context);
-        if (oAuthResponse != null) {
+        OAuthResponse oAuthResponse = OAuthResponse.get();
+        if (oAuthResponse != null && authInterceptor == null) {
 
-            AuthenticationInterceptor interceptor = new AuthenticationInterceptor(oAuthResponse.getAccessToken());
+            authInterceptor = new AuthenticationInterceptor(oAuthResponse.getAccessToken());
 
             //Add Bearer Authentication if Authentication Token Exists
-            if (!httpClient.interceptors().contains(interceptor)) {
-                httpClient.authenticator(new TokenAuthenticator(context));
-                httpClient.interceptors().add(interceptor);
+            if (!httpClient.interceptors().contains(authInterceptor)) {
+                httpClient.authenticator(new TokenAuthenticator());
+                httpClient.interceptors().add(authInterceptor);
             }
 
         }
 
         builder.client(httpClient.build()).build();
-        Retrofit retrofit = builder.build();
+        retrofit = builder.build();
+        retrofit.responseBodyConverter(APIError.class, new Annotation[0]);
 
         return retrofit.create(ApiClient.class);
 

@@ -2,7 +2,6 @@ package yenilab.co.apistartup.api;
 
 import java.io.IOException;
 
-import okhttp3.Credentials;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -20,8 +19,8 @@ public class HeaderInterceptor implements Interceptor {
         Request original = chain.request();
 
         Request.Builder builder = original.newBuilder()
-                .addHeader("Content-Type", "application/x-www-form-urlencoded")
-                .addHeader("Accept", "application/json")
+                .addHeader("Content-Type", "yenilab/co/apistartup/application/x-www-form-urlencoded")
+                .addHeader("Accept", "yenilab/co/apistartup/application/json")
                 .addHeader("Client-Id", BuildConfig.CLIENT_ID)
                 .addHeader("Client-Secret", BuildConfig.CLIENT_KEY);
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ApiStartup</string>
+    <string name="app_name">Api Startup</string>
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_register">Register</string>
 
@@ -8,7 +8,6 @@
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in</string>
-    <string name="action_register">Register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="action_register_short">Register</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -22,4 +21,14 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <!-- Strings related to Setting Fragment -->
+    <string name="settings_notification">Notification</string>
+    <string name="settings_notification_on">On</string>
+    <string name="settings_notification_off">Off</string>
+
+    <!-- Strings related to register -->
+    <string name="action_register_success">Registration successfully completed.</string>
+    <string name="action_register">Register</string>
+
 </resources>
