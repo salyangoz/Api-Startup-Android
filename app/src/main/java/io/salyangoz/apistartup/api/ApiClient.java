@@ -28,12 +28,12 @@ public interface ApiClient {
     @POST("/oauth/token")
     Call<OAuthResponse> refreshToken(@Body OAuth oAuth, @Field("refresh_token") String refreshToken);
 
-    @POST(BuildConfig.API_VERSION + "/self/device")
+    @POST("/self/device")
     Call<Void> addDevice(@Body Device device);
 
-    @POST(BuildConfig.API_VERSION + "/self/setting")
+    @POST("/self/setting")
     Call<Void> changeSetting(@Body Setting setting);
 
-    @GET(BuildConfig.API_VERSION + "/self/setting")
+    @GET("/self/setting")
     Call<SettingResponse> settings();
 }
