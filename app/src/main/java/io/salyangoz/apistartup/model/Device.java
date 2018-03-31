@@ -9,23 +9,23 @@ import com.google.gson.annotations.SerializedName;
 public class Device {
 
     public static final String PLATFORM = "android";
-    @SerializedName("device_id")
-    private String deviceId;
+    @SerializedName("token")
+    private String token;
     @SerializedName("device_type")
     private String deviceType;
 
-    public Device(String deviceId, String deviceType) {
+    public Device(String token, String deviceType) {
 
-        this.deviceId = deviceId;
+        this.token = token;
         this.deviceType = deviceType;
     }
 
-    public String getDeviceId() {
-        return deviceId;
+    public String getToken() {
+        return token;
     }
 
-    public void setDeviceId(String deviceId) {
-        this.deviceId = deviceId;
+    public void setToken(String token) {
+        this.token = token;
     }
 
     public String getDeviceType() {

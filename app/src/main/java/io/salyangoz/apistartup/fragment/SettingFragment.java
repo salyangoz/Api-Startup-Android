@@ -60,9 +60,15 @@ public class SettingFragment extends Fragment implements Switch.OnCheckedChangeL
     }
 
     @Override
-    public void onCheckedChanged(Switch view, boolean checked) {
-
-        Setting setting = new Setting(checked);
+    public void onCheckedChanged(Switch view, boolean checked)
+    {
+        int settingValue;
+        if (checked) {
+            settingValue = 1;
+        } else {
+            settingValue = 0;
+        }
+        Setting setting = new Setting(settingValue);
         ApiClientProvider.getInstance()
                 .changeSetting(setting).enqueue(this);
     }
@@ -94,8 +100,8 @@ public class SettingFragment extends Fragment implements Switch.OnCheckedChangeL
         public void onResponse(Call<SettingResponse> call, Response<SettingResponse> response) {
 
             if (response.isSuccessful()) {
-                boolean notification = response.body().getSetting().isNotificationOn();
-                sNotification.setCheckedImmediately(notification);
+                int notification = response.body().getSetting().isNotificationOn();
+                sNotification.setCheckedImmediately(notification == 1);
             } else {
                 APIError error = ApiErrorUtil.parseError(response);
                 snackbar = Snackbar.make(mContainer, error.getMessage(), Snackbar.LENGTH_LONG);

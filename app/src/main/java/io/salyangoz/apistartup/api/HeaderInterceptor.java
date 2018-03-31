@@ -19,8 +19,8 @@ public class HeaderInterceptor implements Interceptor {
         Request original = chain.request();
 
         Request.Builder builder = original.newBuilder()
-                .addHeader("Content-Type", "yenilab/co/apistartup/application/x-www-form-urlencoded")
-                .addHeader("Accept", "yenilab/co/apistartup/application/json")
+                .addHeader("Content-Type", "application/x-www-form-urlencoded")
+                .addHeader("Accept", "application/vnd.api." + BuildConfig.API_VERSION + "json")
                 .addHeader("Client-Id", BuildConfig.CLIENT_ID)
                 .addHeader("Client-Secret", BuildConfig.CLIENT_KEY);
 

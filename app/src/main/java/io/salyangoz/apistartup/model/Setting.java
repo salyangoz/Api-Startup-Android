@@ -1,5 +1,7 @@
 package io.salyangoz.apistartup.model;
 
+import android.util.Log;
+
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
@@ -11,19 +13,20 @@ import java.io.Serializable;
 public class Setting implements Serializable{
 
     @SerializedName("is_notification_on")
-    private boolean isNotificationOn;
+    private int isNotificationOn;
 
-    public Setting(boolean isNotificationOn) {
+    public Setting(int isNotificationOn) {
 
+        Log.d("model", String.valueOf(isNotificationOn));
         this.isNotificationOn = isNotificationOn;
     }
 
-    public boolean isNotificationOn() {
+    public int isNotificationOn() {
 
         return isNotificationOn;
     }
 
-    public void setNotificationOn(boolean notificationOn) {
+    public void setNotificationOn(int notificationOn) {
 
         isNotificationOn = notificationOn;
     }
