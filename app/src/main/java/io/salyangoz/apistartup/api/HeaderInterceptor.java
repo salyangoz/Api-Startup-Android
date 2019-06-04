@@ -21,8 +21,8 @@ public class HeaderInterceptor implements Interceptor {
         Request.Builder builder = original.newBuilder()
                 .addHeader("Content-Type", "application/x-www-form-urlencoded")
                 .addHeader("Accept", "application/vnd.api." + BuildConfig.API_VERSION + "json")
-                .addHeader("Client-Id", BuildConfig.CLIENT_ID)
-                .addHeader("Client-Secret", BuildConfig.CLIENT_KEY);
+                .addHeader("client_id", BuildConfig.CLIENT_ID)
+                .addHeader("client_secret", BuildConfig.CLIENT_KEY);
 
         Request request = builder.build();
 

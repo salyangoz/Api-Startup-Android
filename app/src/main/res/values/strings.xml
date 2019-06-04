@@ -4,7 +4,9 @@
     <string name="title_activity_register">Register</string>
 
     <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
     <string name="prompt_name">Name</string>
+    <string name="prompt_surname">Surname</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in</string>

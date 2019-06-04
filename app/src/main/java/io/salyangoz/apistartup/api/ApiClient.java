@@ -3,6 +3,7 @@ package io.salyangoz.apistartup.api;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.Field;
+import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
 import io.salyangoz.apistartup.BuildConfig;
@@ -19,11 +20,12 @@ import io.salyangoz.apistartup.model.response.SettingResponse;
 
 public interface ApiClient {
 
-    @POST(BuildConfig.API_VERSION + "/register")
+    @POST("/api/users")
     Call<Void> register(@Body User user);
 
-    @POST("/oauth/token")
-    Call<OAuthResponse> login(@Body OAuth oAuth);
+    @FormUrlEncoded
+    @POST("/legacy/sts/api/oauth/token")
+    Call<OAuthResponse> login(@Field("grant_type") String grantType,@Field("username") String username,@Field("password") String password,@Field("client_id") String clientId,@Field("client_secret") String clientSecret);
 
     @POST("/oauth/token")
     Call<OAuthResponse> refreshToken(@Body OAuth oAuth, @Field("refresh_token") String refreshToken);

@@ -147,7 +147,7 @@ public class LoginActivity extends AppCompatActivity implements Callback<OAuthRe
             showProgress(true);
             oAuth = new OAuth(email, password);
             ApiClientProvider.getInstance()
-                    .login(oAuth)
+                    .login(oAuth.getGrantType(),oAuth.getUsername(),oAuth.getPassword(),oAuth.getClientId(),oAuth.getClientSecret())
                     .enqueue(this);
 
         }

@@ -23,8 +23,6 @@ public class OAuth implements Serializable {
     private String password;
     @SerializedName("grant_type")
     private String grantType;
-    @SerializedName("scope")
-    private String scope;
     @SerializedName("client_id")
     private String clientId;
     @SerializedName("client_secret")
@@ -41,7 +39,6 @@ public class OAuth implements Serializable {
         this.username = username;
         this.password = password;
         this.grantType = OAUTH_GRANT_TYPE;
-        this.scope = OAUTH_SCOPE;
         this.clientId = BuildConfig.CLIENT_ID;
         this.clientSecret = BuildConfig.CLIENT_KEY;
     }
@@ -74,16 +71,6 @@ public class OAuth implements Serializable {
     public void setGrantType(String grantType) {
 
         this.grantType = grantType;
-    }
-
-    public String getScope() {
-
-        return scope;
-    }
-
-    public void setScope(String scope) {
-
-        this.scope = scope;
     }
 
     public String getClientId() {

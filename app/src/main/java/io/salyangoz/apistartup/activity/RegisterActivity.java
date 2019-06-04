@@ -39,6 +39,8 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Void
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
     private EditText mNameView;
+    private EditText mSurnameView;
+    private EditText mUsernameView;
     private View mProgressView;
     private View mRegisterFormView;
     private OAuth oAuth;
@@ -56,6 +58,8 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Void
         setContentView(R.layout.activity_register);
         // Set up the register form.
         mNameView = (EditText) findViewById(R.id.name);
+        mSurnameView = (EditText) findViewById(R.id.surname);
+        mUsernameView= (EditText) findViewById(R.id.username);
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -95,8 +99,10 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Void
         mProgressView = findViewById(R.id.register_progress);
 
         if (BuildConfig.DEBUG) {
-            mNameView.setText("Erkin Deveci");
-            mEmailView.setText("erkind@salyangoz.com.tr");
+            mNameView.setText("Erkin");
+            mSurnameView.setText("Deveci");
+            mUsernameView.setText("erkindeveci");
+            mEmailView.setText("info@salyangoz.com.tr");
             mPasswordView.setText("123456");
         }
     }
@@ -117,6 +123,9 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Void
         String email = mEmailView.getText().toString();
         String password = mPasswordView.getText().toString();
         String name = mNameView.getText().toString();
+        String username = mUsernameView.getText().toString();
+        String surname = mSurnameView.getText().toString();
+
 
         boolean cancel = false;
         View focusView = null;
@@ -125,6 +134,20 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Void
         if (TextUtils.isEmpty(name)) {
             mNameView.setError(getString(R.string.error_field_required));
             focusView = mNameView;
+            cancel = true;
+        }
+
+        //Check for surname field is empty
+        if (TextUtils.isEmpty(surname)) {
+            mSurnameView.setError(getString(R.string.error_field_required));
+            focusView = mSurnameView;
+            cancel = true;
+        }
+
+        //Check for surname field is empty
+        if (TextUtils.isEmpty(username)) {
+            mUsernameView.setError(getString(R.string.error_field_required));
+            focusView = mUsernameView;
             cancel = true;
         }
 
@@ -155,7 +178,7 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Void
             showProgress(true);
 
             // Create & Fill user model
-            User user = new User(name, email, password);
+            User user = new User(name,surname,username, email, password);
 
 
             // perform the user register attempt.
@@ -233,6 +256,7 @@ public class RegisterActivity extends AppCompatActivity implements Callback<Void
     public void onFailure(Call<Void> call, Throwable throwable) {
 
         //TODO customize your fail response
+
         showProgress(false);
     }
 }

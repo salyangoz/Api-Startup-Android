@@ -15,6 +15,7 @@ import android.view.MenuItem;
 
 import com.onesignal.OneSignal;
 
+import io.salyangoz.apistartup.model.response.OAuthResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -46,6 +47,8 @@ public class MainActivity extends AppCompatActivity implements OneSignal.IdsAvai
 
         //Check user is logged in.
         OAuth oAuth = OAuth.get();
+        OAuthResponse oAuthResponse = OAuthResponse.get();
+
         if (oAuth == null) {
             LoginActivity.start(MainActivity.this);
             finish();
